@@ -9,7 +9,6 @@ languages:
 categories:
   - LSP
 
-
 source:
   id: pkg:pypi/pyright@1.1.333
 
@@ -17,5 +16,5 @@ schemas:
   lsp: vscode:https://raw.githubusercontent.com/microsoft/pyright/{{version}}/packages/vscode-pyright/package.json
 
 bin:
-  pyright: npm:pyright
-  pyright-langserver: npm:pyright-langserver
+  pyright: pypi:pyright
+  pyright-langserver: pypi:pyright-langserver
