@@ -9,6 +9,7 @@ languages:
 categories:
   - LSP
 
+
 source:
   id: pkg:pypi/pyright@1.1.333
 
